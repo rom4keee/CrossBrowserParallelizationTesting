@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="8.815">
+    <testcase classname="User can navigate to different pages" name="Open Book Depository Home page for guest user" time="4.203">
+        <system-out>
+            <![CDATA[Given I am an anonymous customer with clear cookies.........................passed
+And I open the "https://www.bookdepository.com/"............................passed
+Then I am redirected to a "Home page".......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User can navigate to different pages" name="Open Facebook Login page" time="2.091">
+        <system-out>
+            <![CDATA[Given I am an anonymous customer with clear cookies.........................passed
+And I open the "https://www.facebook.com/"..................................passed
+Then I am redirected to a "Login page"......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User can navigate to different pages" name="Open Book Depository Search page" time="2.295">
+        <system-out>
+            <![CDATA[Given I am an anonymous customer with clear cookies.........................passed
+And I open the "https://www.bookdepository.com/search?searchTerm=&search=Find+book".passed
+Then I am redirected to a "Search page".....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
